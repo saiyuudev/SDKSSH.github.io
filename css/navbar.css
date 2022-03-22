@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #1e272e;
+}
+
+@-webkit-keyframes svg-text-anim {
+    40% {
+        stroke-dashoffset: 0;
+        fill: transparent;
+    }
+    60% {
+        stroke-dashoffset: 0;
+        fill: #ffffff;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        fill: #ffffff;
+    }
+}
+
+@keyframes svg-text-anim {
+    40% {
+        stroke-dashoffset: 0;
+        fill: transparent;
+        }
+        60% {
+        stroke-dashoffset: 0;
+        fill: #ffffff;
+        }
+        100% {
+        stroke-dashoffset: 0;
+        fill: #ffffff;
+        }
+
+}
+
+.navbar-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
