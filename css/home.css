@@ -1,6 +1,36 @@
+@font-face { 
+    font-family: 'Open Sans'; 
+    font-style: black; 
+    font-weight: 800; 
+    src: url(https://fonts.gstatic.com/s/opensans/v14/cJZKeOuBrn4kERxqtaUH3SZ2oysoEQEeKwjgmXLRnTc.ttf) format('truetype'); 
+  } 
+
 body {
     background-image: url("../img/bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.box{
+    width: 20%;
+    height: auto;
+    background-color: #fff;
+    border: 2px #2c3e50;
+    border-radius: 25px;
+}
+
+.box > p {
+    font-family: 'Open Sans';
+    font-size: 2em;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
 }
