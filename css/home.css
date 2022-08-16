@@ -38,3 +38,13 @@ html {
     top: 0;
     left: 0
 }
+
+h1 {
+    color: #FFF;
+    font-family: "Lemon Days";
+    border-right: #FFF .15em solid;
+    white-space: nowrap;
+    margin: 0, auto;
+    letter-spacing: .15em;
+    
+}
