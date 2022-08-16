@@ -3,14 +3,8 @@
     font-style: black; 
     font-weight: 800; 
     src: url("../fonts/Lemon Days.ttf") format('truetype'); 
-  } 
+} 
 
-body {
-    background-image: url("../img/bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
 
 section{
     display: flex;
@@ -18,20 +12,4 @@ section{
     align-items: center;
     height: 100vh;
     text-align: center;
-}
-
-.box{
-    width: 15%;
-    height: auto;
-    background-color: #fff;
-    border: 2px #2c3e50;
-    border-radius: 25px;
-}
-
-.box > p {
-    font-family: 'Lemon Days';
-    letter-spacing: 5px;
-    font-size: 2em;
-    font-weight: 800;
-    color: rgb(0, 0, 0);
 }
